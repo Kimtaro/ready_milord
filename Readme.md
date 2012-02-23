@@ -15,7 +15,7 @@ You must have [Growl](http://growl.info/) and [growlnotify](http://growl.info/ex
 Install
 -------
 
-Download `ready_milord.sh` and put `source ready_milord.sh` in your .bashrc or equivalent anywhere after you define your prompt ($1).
+Download `ready_milord.sh` and put `source ready_milord.sh` in your .bashrc or equivalent anywhere after you define your prompt (PS1).
 
 Here's the relevant bit from my .bashrc as an example:
 

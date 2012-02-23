@@ -32,6 +32,11 @@ Here's the relevant bit from my .bashrc as an example:
     source ~/.ready_milord.sh
  
 
+Downside
+--------
+
+Sometimes the AppleScript takes a long time to run and so blocks execution for a second or two. It can be a bit annoying, but you can learn to live with it.
+
 License
 -------
 

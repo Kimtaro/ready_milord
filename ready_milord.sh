@@ -9,7 +9,7 @@ function ready_milord {
   if [ "$APP" != 'Terminal' ]; then
     message="Sayeth the Terminal: I'm ready for your next command, milord."
     if [ -d "/Applications/terminal-notifier.app/" ]; then
-      /Applications/terminal-notifier.app/Contents/MacOS/terminal-notifier -message "$message" 1>/dev/null
+      /Applications/terminal-notifier.app/Contents/MacOS/terminal-notifier -message "$message" -activate com.apple.Terminal 1>/dev/null
     else
       growlnotify -m "$message"
     fi
